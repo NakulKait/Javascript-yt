@@ -24,7 +24,7 @@ const obj2 = {3 : 'c' , 4 : 'd'}
 //another and most used method is 
 
 const obj3 = {...obj1 , ...obj2}
-console.log(obj3)
+//console.log(obj3)
 
 const obj4 = [
     {
@@ -41,6 +41,25 @@ const obj4 = [
 
 //console.log(obj4[1].)
 
-console.log(Object.keys(tinderuser))
-console.log(Object.values(tinderuser))
-console.log(Object.hasOwnProperty('isLoggedIn'))
+// console.log(Object.keys(tinderuser))
+// console.log(Object.values(tinderuser))
+// console.log(Object.hasOwnProperty('isLoggedIn'))
+
+const course = {
+    courseName : "Python",
+    price : 999 , 
+    courseInstructor : "Hitesh"
+}
+
+//Another type of accessing an object
+
+const {courseName} =course
+
+console.log(courseName)
+
+//By using destructure
+
+const{courseName:Name} = course
+console.log(Name)
+
+
