@@ -15,5 +15,7 @@ let newArr1 = myArr.slice(1,3)
 console.log(newArr1)
 console.log(myArr)
 let newArr2 = myArr.splice(1,3)
+//Splice make changes and remove given element from array
+
 console.log(newArr2)
 console.log(myArr)
