@@ -5,7 +5,7 @@
 
 # Solution Code
 
-``` Javascript
+``` Javasc
 let clock = document.querySelector('#clock');
 
 setInterval(function () {
