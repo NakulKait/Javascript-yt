@@ -6,7 +6,7 @@
 # Solution Code
 
 ``` javaScript
-const buttons = document.querySelectorAll('.button')
+const buttons = document.querySelectorAll(sfrs'.button')
 
 const body = document.querySelector('body')
 
